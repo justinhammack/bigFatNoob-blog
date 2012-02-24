@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Wordpress setup</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Rascals labs" />
+<meta name="description" content="Rascals labs" />
+<meta name="author" content="Rascals labs" />
+<link rel="stylesheet" type="text/css" href="../scripts/prettyPhoto/css/prettyPhoto.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="../layout/main.css" media="screen"/>
+<script type="text/javascript" src="../scripts/jquery.js"></script>
+<script type="text/javascript" src="../scripts/custom.js"></script>
+</head>
+<body>
+<div id="content">
+  <div id="top">
+    <h1>Wordpress setup</h1>
+  </div>
+     <h3>Pretty Permalinks</h3>
+    <p>Permalinks are the permanent URLs to your individual weblog posts, as well as categories and other lists of weblog postings. A permalink is what another weblogger will use to link to your article (or section), or how you might send a link to your story in an e-mail message. The URL to each post should be permanent, and never change — hence permalink.</p>
+      <p>Go to -> Admin Panel -> Settings -> Permalinks <img src="../photos/permalink.png" alt="../photos/permalink.png " /> Below Common Settings tick the radio button next to Custom Settings option and enter the following: </p>
+      <pre>/%category%/%postname%/</pre>
+    <h3>Setting the homepage</h3>
+      <p>Admin Panel -> Settings -> Reading -> Front page displays -> <img src="../photos/reading_settings.png" alt="../photos/reading_settings.png" /> </p>
+      <p>check 'static page' and select below 'Front page'</p>
+      <p>Admin Panel -> Settings -> Reading -> Blog pages show at most -> enter e.g. 5 </p>
+      <div class="message warning">
+        <p> Please don't choose the option <strong>'Posts page'</strong> </p>
+      </div>
+ <div class="message warning">
+        <p>Please don't install <strong>'WP-PageNavi'</strong> and <strong>'PrettyPhoto'</strong> plugin. The installation can cause the conflict. (WP-PageNavi and PrettyPhoto is built-in in the template)</p>
+      </div>
+</div>
+</body>
+</html>

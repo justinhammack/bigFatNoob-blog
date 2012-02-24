@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Translation</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Rascals Labs" />
+<meta name="description" content="Rascals Labs" />
+<meta name="author" content="Rascals Labs" />
+<link rel="stylesheet" type="text/css" href="../layout/main.css" media="screen"/>
+<script type="text/javascript" src="../scripts/jquery.js"></script>
+<script type="text/javascript" src="../scripts/custom.js"></script>
+</head>
+<body>
+<div id="content">
+  <div id="top">
+    <h1>Translation</h1>
+  </div>
+  <h3>Translating theme into another language</h3>
+  <ol>
+    <li>Download and install: <a href="http://www.poedit.net/" target="_blank">http://www.poedit.net/</a></li>
+    <li>Go to the languages folder of the theme. and open the en_EN.po file in the languages folder. /languages/en_EN.po</li>
+    <li>Open POedit and translate the English language into your preferred language.
+      <p>When complete, you’ll want to save the file twice, as two separate files – a .po file and a .mo file. When you save the files, you must name them according to your language code.</p>
+      <p>Find a list of language codes at <a href="http://codex.wordpress.org/WordPress_in_Your_Language" target="_blank">http://codex.wordpress.org/WordPress_in_Your_Language</a>. As an example, the language code for English is en_EN, so you would save the translated files as en_EN.po first, then en_EN.mo. When that is done, simply upload the files your theme folder using FTP program.</p>
+    </li>
+    <li>Edit wp-config.php file
+      <p>Finally, if you haven’t done so already, you’ll need to make sure your wp-config.php file matches your language files. For example, if you’re using a French translation, you’ll need to add the fr_FR.po and fr_FR.mo files to your theme folder, then set your language in wp-config.php, like this:</p>
+      <code>define('WPLANG', 'fr_FR');</code></li>
+    <li>Save your wp-config.php file, upload it to your WordPress installation, and you are ready to go.</li>
+  </ol>
+  <h3>Change default theme texts</h3>
+  <p>If you use the program Poedit and <strong>if you set the default language of English en_EN, then you can change all default texts</strong> without editing a template codes. This is very convenient because if the new upgrade will change the code, you will need to change the texts again.</p>
+  <p>Then you set your language code in the file wp-config.php, like this (for English language):</p>
+  <code>define('WPLANG', 'en_EN');</code>
+  <div class="message info">
+    <p>Your wp-config.php file is loacated in the main directory where all your core WordPress files are located.</p>
+  </div>
+</div>
+</body>
+</html>

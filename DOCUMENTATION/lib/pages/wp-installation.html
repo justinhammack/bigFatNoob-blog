@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Theme installation</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Rascals labs" />
+<meta name="description" content="Rascals labs" />
+<meta name="author" content="Rascals labs" />
+<link rel="stylesheet" type="text/css" href="../scripts/prettyPhoto/css/prettyPhoto.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="../layout/main.css" media="screen"/>
+<script type="text/javascript" src="../scripts/jquery.js"></script>
+<script type="text/javascript" src="../scripts/custom.js"></script>
+</head>
+<body>
+<div id="content">
+  <div id="top">
+    <h1>Theme Installation</h1>
+  </div>
+  <h3>Adding theme using the Administration Panel</h3>
+  <ol>
+    <li>Log in to the WordPress Administration Panel.</li>
+    <li> Select the Appearance panel, then Themes. </li>
+    <li> Use the Upload link in the top sub-menu to upload a zipped copy of a Theme that you have previously downloaded to your machine. </li>
+  </ol>
+  <h3>Adding theme using FTP program</h3>
+  <ol>
+    <li>Download and install FileZilla
+      <p>Download FileZilla from <a href="http://filezilla-project.org/" target="_blank">http://filezilla-project.org/</a> and install program.</p>
+    </li>
+    <li>Run program
+      <p>Double click on your FileZilla icon from your desktop.</p>
+    </li>
+    <li>Setup
+      <p>Complete the following boxes (below the header at the top of the screen)<br />
+        ftpAddress - The URL of your blog/website (don’t include http:// at the beginning)<br />
+        User - your ftp username<br />
+        Password - your ftp password<br />
+        Port - Leave Blank or enter 21 (it should by default enter this automatically)</p>
+    </li>
+    <li>Quickconnect
+      <p>Click Quickconnect! are now connected to your ftp account. </p>
+    </li>
+    <li>WWW
+      <p>Double click on the WWW directory folder located on the right hand side so that the directory is opened. If you have a registered domain on your account then the 'index.html' file should be within your 'www/yourdomain.com/' directory. 'index.html' will be the main page of your site.<br />
+        If you use Wordpress and have a registered domain on your account then the Wordpress files can be accessed using the following path /www/wp-content/themes/ and select your theme folder. You will find all the php, css and image files for your Wordpress site in there. </p>
+    </li>
+    <li>Search for your files
+      <p>From the left hand side of the FileZilla program, you will need to search for your files on your computer in which you would like to upload to your site under 'Local Site'. </p>
+    </li>
+    <li>Upload
+      <p>Highlight all of the files you wish to upload and then DRAG them over to an open area on the right hand side of the FileZilla program so that you will upload the files into www/wp-content/themes/your theme folder.<br />
+        Your files will upload instantly onto your site. A message will appear at the top above the local site to let you know if the upload was successful. That’s all theme should already be on the server ready to activation. </p>
+    </li>
+  </ol>
+  <h3>Selecting the Active Theme</h3>
+  <ol>
+    <li> Log in to the WordPress Administration Panel. </li>
+    <li>Select the Appearance panel, then Themes.</li>
+    <li>From the Available Themes section, click on the Theme title (or Theme screenshot) for the Theme you wish to activate.</li>
+    <li>A preview of the Theme will be shown.</li>
+    <li>To activate the Theme click the Activate "Theme Name" link in the top right.</li>
+  </ol>
+</div>
+</body>
+</html>

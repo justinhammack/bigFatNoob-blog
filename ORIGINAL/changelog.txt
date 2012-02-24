@@ -1,0 +1,260 @@
+=======================================================
+Theme Changelog
+=======================================================
+
+-------------------------------------------------------
+version 1.3.1
+-------------------------------------------------------
+- Ready for WP 3.3+
+- Added: Tag template (tag.php)
+- Added: Custom portfolio order - Pendulum Settings -> Customize -> Portfolio order.
+- Updated: Scripts: TimThumb, jQuery.
+- Added: New R-Panel 3.2 and R-Frame 1.4.
+- Fixed: Misc small bugs.
+- Added: facebook image.
+- Added: two new option in Admin Panel.
+
+Admin panel > Advanced > Demo Content
+Disable this option when your template is ready and you will not need demo content (images, audio). This can speed up the template.
+
+Admin panel > Advanced > Admin Panel > Admin Logo
+Upload a logo for your admin panel (200x144 px), or specify the image address (http://yoursite.com/your_image.jpg).
+
+Important: R-Panel 3.2 requires Wordpress version 3.3+
+Important: After doing an upgrade, go to the Admin Panel and save the data.
+
+
+Changed files/folders:
+----------------------
+
+/framework/
+
+thumb.php
+
+style.css
+- changed: Version: 1.3
+
+
+-------------------------------------------------------
+version 1.3
+-------------------------------------------------------
+- Added: Cufon Fonts Manager - Pendulum Settings -> Customize -> Cufon Fonts. 
+Now you can at the same time use multiple Cufon fonts. You can choose the font you want to be loaded.
+Important: After doing an upgrade, go to the Admin Panel and save the data.
+- Added: Custom portfolio order - Pendulum Settings -> Customize -> Portfolio order.
+- Updated: Scripts: TimThumb, jQuery.
+- Added: 28 Cufon fonts.
+- Added: New R-Panel 3.1 and R-Frame 1.4.
+Important: R-Panel 3.1 requires Wordpress version 3.2+
+
+
+Changed files/folders:
+----------------------
+
+/framework/
+
+thumb.php
+
+style.css
+- changed: Version: 1.3
+
+
+-------------------------------------------------------
+version 1.2.3
+-------------------------------------------------------
+- Fixed: Slider color heading. Whatever the chosen style, slider heading was always a blue.
+- Updated: TimThumb script ver 1.34.
+
+
+Changed files/folders:
+----------------------
+
+/framework/
+
+thumb.php
+
+style.css
+- changed: Version: 1.2.3
+
+
+-------------------------------------------------------
+version 1.2.2
+-------------------------------------------------------
+- Added: HTML mode in custom editors
+- Fixed: Last tweet shortcode
+- Improved: Shortcodes manager
+
+
+Changed files/folders:
+----------------------
+
+/framework/
+
+style.css
+- changed: Version: 1.2.2
+
+functions.php
+- changed: Line:47-48
+if (isset($r_option['curl'])) define('CURL', $r_option['curl']);
+else define('CURL', 'off');
+
+
+-------------------------------------------------------
+version 1.2.1.1
+-------------------------------------------------------
+- Fixed: Ajax Thumbnail Generator.
+- Fixed: R-Slider "Fold" effect.
+- Fixed: HTML5 Vaildation. Replaced "rel" attribute on "data-gal" because using "rel" attribute with non-proposed (thus not allowed) values not valid for HTML5 markup.
+- Added: Option "cURL" to the administration panel. (General Settings -> Advanced-> cURL). Enable this option if the images do not appear correctly. Important - your server must have the cURL extension. You can check this in the "System Information".
+
+
+Changed files/folders:
+----------------------
+
+/framework/
+
+style.css
+- changed: Version: 1.2.1.1
+
+functions.php
+- Moved: Line:45-46
+/* Set images constants */
+define('CURL', $r_option['curl']); 
+
+
+-------------------------------------------------------
+version 1.2.1
+-------------------------------------------------------
+- Added: Easy Link - It is a system to easily add links from the site. Now you can add a link from your website easily. Click on the 'Insert Link' button in MetaBox called 'Custom URL'then in the pop-up window you select the link and click the 'Insert Link'. The window closes automatically and the link you have selected will appear in the MetaBox field. You can also use the search box to help you choose the link.
+
+- Added: We've added a new feature to add images in Metaboxes and R-Panel. Now when you select a picture in the Media Libary or when you change the cropping, then the thumbnail will be generated. If you click on the thumbnail image then you see full size image.
+
+
+Changed files/folders:
+----------------------
+
+/framework/
+
+style.css
+- changed: Version: 1.2.1
+
+
+-------------------------------------------------------
+version 1.2
+-------------------------------------------------------
+
+- Added: New framework and admin panel
+- Added: New R-Slider 2
+- Added: HTML5 - MP3 Player
+- Added: Shortcodes Manager
+- Added: New Shortcodes
+- Added: New video tutorials and documentation
+- Added: New Custom posts: Events Manager, Portfolio and Slider
+- Added: Bookmarks icons
+- Added: Nested comments
+- Added: new contact form function
+ 
+
+Changed files/folders:
+
+----------------------
+All files and folders have been changed. Version 1.2 was written from the beginning therefore the previous versions are not compatible.
+
+
+-------------------------------------------------------
+version 1.1.3
+-------------------------------------------------------
+
+- Removed: Property: 'clear:both'. Selectors: 'h1, h2, h3, h4, h5, h6', 'input, textarea'.
+- Fixed: Display events posts in admin panel. This error appeared only in Wordpress 3.1.
+- Fixed: Filter events posts in admin panel. This error appeared only in Wordpress 3.1.
+- Improved: Trim function. IMPORTANT: Now R-Post widget is trimming words not characters. We changed default value  form 100 characters on 10 words. After updating R-Post widget can show maximum excerpt length (55 words).
+- Added: 'link' attribute to 'Easy image' shortcode.
+Now you can use the additional attribute 'link' in images shortcodes e.g.
+[image_m link="http://google.com"]http://my_image.jpg[/image_m]
+ 
+
+Changed files/folders:
+----------------------
+
+/framework/
+
+/function.php
+- changed: define('THEME_VERSION', '1.1.3');
+
+style.css
+- changed: Version: 1.1.3
+- Removed: Property: 'clear:both'. Selectors: 'h1, h2, h3, h4, h5, h6', 'input, textarea'
+
+
+-------------------------------------------------------
+version 1.1.2
+-------------------------------------------------------
+
+- Added: new Events Manager design
+- Fixed: Events Manager comparing dates 
+- Added: duration to 'fade' effect in Homepage slider
+- Updated: PrettyPhoto plugin (3.0.1)
+
+Changed files/folders:
+----------------------
+
+/framework/
+
+/includes/events_manager.php
+- fixed lines: 17, 24, 25
+- removed lines: 18, 19
+
+/template-events.php
+- fixed lines: 47, 48, 59, 60, 61
+- removed lines: 49, 50
+
+/function.php
+- changed: define('THEME_VERSION', '1.1.2');
+
+style.css
+- changed: Version: 1.1.2
+
+
+-------------------------------------------------------
+version 1.1
+-------------------------------------------------------
+
+- Added: Event Manager
+- Added: Auto-lightboxing option
+- Added: 'Homepage Blog' template
+- Added: new attributes to images shortcodes
+  group="" -> lightbox images group
+  title="" -> image title
+- Added: new breadcrumb navigation function
+- Added: new dropdown menu function
+- Replaced: display image code (replaced 'title' on 'rev' attribute)
+- Replaced: shortcodes: vimeo, youtube, r-player
+- Fixed: blog category filter 
+- Fixed: R-Panel - General Settings export function
+
+Changed files/folders:
+----------------------
+
+all theme files
+
+
+-------------------------------------------------------
+version 1.0.3
+-------------------------------------------------------
+
+- Fixed: adding images in Wordpress WYSIWYG Editor 
+- Fixed: showing autoresize images
+- Added: 'Check images dimensions' in General settings.
+
+Changed files/folders:
+----------------------
+
+/framework/
+- Changed framework core
+
+/function.php
+- changed: define('THEME_VERSION', '1.1.1');
+
+style.css
+- changed: Version: 1.1.1

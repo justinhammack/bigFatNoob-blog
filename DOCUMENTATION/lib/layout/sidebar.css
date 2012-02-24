@@ -1,0 +1,77 @@
+/*------------------------------------------------------------------------
+ Documentation Theme Stylesheet
+ ------------------------------------------------------------------------*/
+ 
+ 
+/* Reset
+ ------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0;border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent }
+body { line-height:1 }
+ol, ul { list-style:none }
+blockquote, q { quotes:none }
+blockquote:before, blockquote:after, q:before, q:after { content:'' }
+ins { text-decoration:none }
+del { text-decoration:line-through }
+table { border-collapse:collapse; border-spacing:0 }
+
+
+/* General
+ ------------------------------------------------------------------------*/
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#333;
+	background:#fff url(images/sidebar-top.png) left top repeat-x scroll;
+}
+a {
+	color:#333;
+	text-decoration:none;
+	line-height:14px;
+}
+a:hover {
+	color:#fff;
+	background:#663366;
+	text-decoration:none;
+}
+
+
+/* Top Section
+ ------------------------------------------------------------------------*/
+#sidebar-top {
+	position:relative;
+	height:140px;
+	width:260px;
+	background:transparent url(images/logo.png) left top no-repeat scroll;
+}
+#sidebar {
+	width:100%;
+	position:relative;
+	min-height:260px;
+ 	height:auto !important;
+ 	height:260px;
+	overflow:hidden;
+	padding-bottom:20px;
+	background:transparent url(images/sidebar-bg.png) left top repeat-x scroll;
+}
+ul#sidebar-menu {
+	margin:0 20px 20px 30px;
+}
+ul#sidebar-menu span {
+	font-weight:bold;
+	padding-left:2px;
+}
+#sidetreecontrol {
+	margin:20px 20px 10px 30px;
+}
+#theme-version {
+	position:absolute;
+	left:30px;
+	bottom:0;
+	clear:both;
+}
+#theme-version span {
+	font-size:10px;
+	display:block;
+	padding-bottom:4px;
+}

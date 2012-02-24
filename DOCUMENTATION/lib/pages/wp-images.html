@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Images</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Rascals labs" />
+<meta name="description" content="Rascals labs" />
+<meta name="author" content="Rascals labs" />
+<link rel="stylesheet" type="text/css" href="../scripts/prettyPhoto/css/prettyPhoto.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="../layout/main.css" media="screen"/>
+<script type="text/javascript" src="../scripts/jquery.js"></script>
+<script type="text/javascript" src="../scripts/custom.js"></script>
+</head>
+<body>
+<div id="content">
+  <div id="top">
+    <h1>Images</h1>
+  </div>
+  <h3>Setup images (auto resize script)</h3>
+      <p>The image must be hosted on your domain. This is for security reasons. The file thumb.php should have 755 permissions. The folder /cache should have 777 permissions. If this doesn’t work, try giving 755 permissions to cache. See here on how to give files and folders permissions (called CHMODing).</p>
+      <p>Make sure your server has the GD library for PHP enabled. Ask your hosting provider, if you don’t know what this means.</p>
+      <p>Make sure that you don’t add www if your site doesn’t use it. Go to http://www.yourdomain.com . If you are redirected to http://yourdomain.com, then don’t add www. The reverse also applies.</p>
+      <p>If absolute image paths (http://domain.com/uploads/image.jpg) don’t work, try using relative paths (/uploads/image.jpg)</p>
+      <p>If you try to resize a massive image (a few MB in size, for example), you will run into problems. try reducing the quality of the image.</p>
+  <p>If you are hosted with HostGator or if you are not sure what’s wrong, ask your hosts; often, the mod_security settings play havoc with TimThumb. Your hosts will have to al- low usage of TimThumb.</p>
+      <p> <span title="Kliknij, aby wyświetlić alternatywne tłumaczenia">We noted</span> <span title="Kliknij, aby wyświetlić alternatywne tłumaczenia">also</span> <span title="Kliknij, aby wyświetlić alternatywne tłumaczenia">a problem</span> where the user was downloading bitmap(.bmp) im- ages and just changing the extension to .jpg. While this may seem like a great idea, a computer isn’t so easily fooled. You must change the extension correctly (eg by open- ing the image in Photoshop and saving it as JPG ).</p>
+<pre>http://yourdomain.com/wp-content/themes/your_theme_name/cache/</pre>
+      <div class="message info">
+        <p><a href="http://codex.wordpress.org/Changing_File_Permissions" target="_blank">http://codex.wordpress.org/Changing_File_Permissions</a></p>
+      </div>
+      <p>The custom field value for the image path should be relative to the site root. This means you should not include the http://sitename.com bit, but include everything else. On some server setups the .htaccess file found in the scripts folder can break things. If this happens then renaming/ deleting the .htaccess file should fix things. Make sure you try all the other suggestions first. If the blog is in a sub folder then include the sub folder in the image path.</p>
+</div>
+</body>
+</html>

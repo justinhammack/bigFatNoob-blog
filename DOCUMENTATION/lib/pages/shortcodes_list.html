@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Available shortcodes</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Rascals labs" />
+<meta name="description" content="Rascals labs" />
+<meta name="author" content="Rascals labs" />
+<link rel="stylesheet" type="text/css" href="../scripts/prettyPhoto/css/prettyPhoto.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="../layout/main.css" media="screen"/>
+<script type="text/javascript" src="../scripts/jquery.js"></script>
+<script type="text/javascript" src="../scripts/custom.js"></script>
+</head>
+<body>
+<div id="content">
+  <div id="top">
+    <h1>Available shortcodes</h1>
+  </div>
+  <h3>Music</h3>
+  <h5>Flash player</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'url'</em> - MP3 URL.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[player url=""]</pre>
+  <div class="divider-small"></div>
+  <h5>HTML5 player</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'url'</em> - MP3 URL.</li>
+    <li><em>'title'</em> - MP3 title.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[html5_player url="" title=""]</pre>
+  <div class="divider-small"></div>
+  <h5>Playlist</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'url'</em> - MP3 URL.</li>
+    <li><em>'title'</em> - MP3 title.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[playlist]
+
+[playlist_track url="" title="Demo Track 01"]
+[playlist_track url="" title="Demo Track 02"]
+[playlist_track url="" title="Demo Track 03"]
+
+[/playlist]</pre>
+  <div class="divider-small"></div>
+  <h5>Soundcloud</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'url'</em> - Soundcloud URL.</li>
+    <li><em>'width'</em> - Player width.</li>
+    <li><em>'height'</em> - Player height.</li>
+    <li><em>'params'</em> - Parameter will pass the given options on to the player widget.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[soundcloud url="" width="600" height="81" params=""]</pre>
+  <div class="divider"></div>
+  <h3>Videos</h3>
+  <h5>Youtube</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'id'</em> - Youtube movie ID.</li>
+    <li><em>'width'</em> - Player width.</li>
+    <li><em>'height'</em> - Player height.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[youtube id="zfsqVKK5mrw" width="624" height="360"]</pre>
+  <div class="divider-small"></div>
+  <h5>Vimeo</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'id'</em> - Vimeo movie ID.</li>
+    <li><em>'width'</em> - Player width.</li>
+    <li><em>'height'</em> - Player height.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[vimeo id="1084537" width="624" height="360"]</pre>
+  <div class="divider"></div>
+  <h3>Images</h3>
+  <h5>Easy image</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'src'</em> - Image URL.</li>
+    <li><em>'size'</em> - Image size (xl, l, m, s, xs).</li>
+    <li><em>'title'</em> - Image title.</li>
+    <li><em>'group'</em> - Lightbox group. Images can be grouped in galleries.</li>
+    <li><em>'link'</em> - External link. If the link exists lightbox effect is automatically disabled.</li>
+    <li><em>'crop'</em> - The code allows you to align the cropping region to different edges of the image.
+      <ul>
+        <li><em>'c'</em> - Position in the center (this is the default).</li>
+        <li><em>'t'</em> - Align top.</li>
+        <li><em>'tr'</em> - Align top right.</li>
+        <li><em>'tl'</em> - Align top left.</li>
+        <li><em>'b'</em> - Align bottom.</li>
+        <li><em>'br'</em> - Align bottom right.</li>
+        <li><em>'bl'</em> - Align bottom left.</li>
+        <li><em>'l'</em> - Align left.</li>
+        <li><em>'r'</em> - Align right.</li>
+      </ul>
+    </li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[easy_image src="#" size="s" title="Image Title" group="" link="" crop="c"]</pre>
+  <div class="divider-small"></div>
+  <h5>Custom image</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'src'</em> - Image URL.</li>
+    <li><em>'width'</em> - Custom image width.</li>
+    <li><em>'height'</em> - Custom image height.</li>
+    <li><em>'title'</em> - Image title.</li>
+    <li><em>'lightbox'</em> - Use lightbox effect.</li>
+    <li><em>'group'</em> - Lightbox group. Images can be grouped in galleries.</li>
+    <li><em>'hover'</em> - When the mouse cursor is on the image, the image changes its transparency. The value of '0 'disables this effect.</li>
+    <li><em>'image_alignment'</em> - You can align images according to the text around it, using the following alignments:
+      <ul>
+        <li><em>'left'</em> - Aligns the image in the left margin and wraps the text that follows the image.</li>
+        <li><em>'right'</em> - Aligns the image in the right margin and wraps the text that precedes the image.</li>
+        <li><em>'center'</em> - Aligns the center of the image with the surrounding text.</li>
+      </ul>
+    </li>
+    <li><em>'link'</em> - External link. If the link exists lightbox effect is automatically disabled.</li>
+    <li><em>'target'</em> - Shows the link in a new window. If the parameter 'target' is set to 1 and the parameter 'link' is not empty, when you click on the image, the link will show in a new window.</li>
+    <li><em>'crop'</em> - The code allows you to align the cropping region to different edges of the image.
+      <ul>
+        <li><em>'c'</em> - Position in the center (this is the default).</li>
+        <li><em>'t'</em> - Align top.</li>
+        <li><em>'tr'</em> - Align top right.</li>
+        <li><em>'tl'</em> - Align top left.</li>
+        <li><em>'b'</em> - Align bottom.</li>
+        <li><em>'br'</em> - Align bottom right.</li>
+        <li><em>'bl'</em> - Align bottom left.</li>
+        <li><em>'l'</em> - Align left.</li>
+        <li><em>'r'</em> - Align right.</li>
+      </ul>
+    </li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[custom_image src="#" width="200" height="200" crop="c" title="Custom image" link="" lightbox="lightbox" group="test_group" hover="1" target="0" image_alignment="left"]</pre>
+  <div class="divider"></div>
+  <h3>Buttons</h3>
+  <h5>Button</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'link'</em> - Link URL.</li>
+    <li><em>'title'</em> - Button title.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[button title="Button" link="#"]</pre>
+  <div class="divider-small"></div>
+  <h5>Button blue</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'link'</em> - Link URL.</li>
+    <li><em>'title'</em> - Button title.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[button_blue title="Button Blue" link="#"]</pre>
+  <div class="divider-small"></div>
+  <h5>Button orange</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'link'</em> - Link URL.</li>
+    <li><em>'title'</em> - Button title.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[button_orange title="Button Orange" link="#"]</pre>
+  <div class="divider-small"></div>
+  <h5>Button green</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'link'</em> - Link URL.</li>
+    <li><em>'title'</em> - Button title.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[button_green title="Button Green" link="#"]</pre>
+  <div class="divider-small"></div>
+  <h5>Button download</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'link'</em> - Link URL.</li>
+    <li><em>'title'</em> - Button title.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[button_download title="Button Download" link="#"]</pre>
+  <div class="divider"></div>
+  <h3>Messages</h3>
+  <h5>Message</h5>
+  <h6>Default usage:</h6>
+  <pre>[message]
+  
+Insert your text here
+  
+[/message]</pre>
+  <div class="divider-small"></div>
+  <h5>Message update</h5>
+  <h6>Default usage:</h6>
+  <pre>[message_update]
+  
+Insert your text here
+  
+[/message_update]</pre>
+  <div class="divider"></div>
+  <h3>Lists</h3>
+  <h5>Check list</h5>
+  <h6>Default usage:</h6>
+  <pre>[check_list]
+&lt;ul&gt;
+&lt;li&gt;List Item 1&lt;/li&gt;
+&lt;li&gt;List Item 1&lt;/li&gt;
+&lt;li&gt;List Item 1&lt;/li&gt;
+&lt;/ul&gt;
+[/check_list]</pre>
+  <div class="divider-small"></div>
+  <h5>Event list</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'display_limit'</em> - Parameter sets a limit of items that will be displayed.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[events_list display_limit="3"]</pre>
+  <div class="divider-small"></div>
+  <h5>Post list</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'display_limit'</em> - Parameter sets a limit of items that will be displayed.</li>
+    <li><em>'cat'</em> - Use category id.</li>
+    <li><em>'limit'</em> - Number of post to show. Use <em>'-1'</em> to show all posts.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[posts_list display_limit="3" cat="" limit="-1"]</pre>
+  <div class="divider"></div>
+  <h3>Contact form</h3>
+  <h5>Contact form</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'email'</em> - Enter the email address that will receive all email delivered to your Web site.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[contact_form email="youremail@domain.com"]</pre>
+  <div class="divider"></div>
+  <h3>Miscellaneous</h3>
+  <h5>Divider</h5>
+  <h6>Default usage:</h6>
+  <pre>[divider]</pre>
+  <div class="divider-small"></div>
+  <h5>Divider with top button</h5>
+  <h6>Default usage:</h6>
+  <pre>[divider_top]</pre>
+  <div class="divider-small"></div>
+  <h5>Last tweet</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'user'</em> - Enter the twitter username.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[last_tweet user="username"]</pre>
+  <div class="divider-small"></div>
+  <h5>Highlight</h5>
+  <h6>Parameters:</h6>
+  <ul class="parameters">
+    <li><em>'color'</em> - Enter the font color.</li>
+    <li><em>'background_color'</em> - Enter the background color.</li>
+  </ul>
+  <h6>Default usage:</h6>
+  <pre>[highlight color="#000" background_color = "#fff"]...Insert your text here...[/highlight]</pre>
+  <div class="divider-small"></div>
+  <h5>Box</h5>
+  <h6>Default usage:</h6>
+  <pre>[box]
+  
+Insert your text here
+
+[/box]</pre>
+  <div class="divider"></div>
+  <h3>Columns</h3>
+  <h5>1/2</h5>
+  <h6>Default usage:</h6>
+  <pre>[1_2]</pre>
+  <div class="divider-small"></div>
+  <h5>1/2 last</h5>
+  <h6>Default usage:</h6>
+  <pre>[1_2_last]</pre>
+  <div class="divider-small"></div>
+  <h5>1/3</h5>
+  <h6>Default usage:</h6>
+  <pre>[1_3]</pre>
+  <div class="divider-small"></div>
+  <h5>1/3 last</h5>
+  <h6>Default usage:</h6>
+  <pre>[1_3_last]</pre>
+  <div class="divider-small"></div>
+  <h5>1/4</h5>
+  <h6>Default usage:</h6>
+  <pre>[1_4]</pre>
+  <div class="divider-small"></div>
+  <h5>1/4 last</h5>
+  <h6>Default usage:</h6>
+  <pre>[1_4_last]</pre>
+  <div class="divider-small"></div>
+  <h5>2/3</h5>
+  <h6>Default usage:</h6>
+  <pre>[2_3]</pre>
+  <div class="divider-small"></div>
+  <h5>2/3 last</h5>
+  <h6>Default usage:</h6>
+  <pre>[2_3_last]</pre>
+  <div class="divider-small"></div>
+  <h5>3/4</h5>
+  <pre>[3_4]</pre>
+  <div class="divider-small"></div>
+  <h5>3/4 last</h5>
+  <h6>Default usage:</h6>
+  <pre>[3_4_last]</pre>
+</div>
+</body>
+</html>

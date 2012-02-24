@@ -1,0 +1,1855 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Modus 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-23 10:48+0100\n"
+"PO-Revision-Date: 2011-09-23 10:48+0100\n"
+"Last-Translator: Rascals Labs\n"
+"Language-Team: Rascals Labs <support@rascals.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;_n:1,2;_x:2c,1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "404 - Not Found"
+msgstr ""
+
+#: ../404.php:20
+msgid "Apologies, but the page you are looking for does not exist."
+msgstr ""
+
+#: ../archive.php:24
+#: ../category.php:37
+#: ../single-wp_events_manager.php:57
+#: ../single-wp_portfolio.php:54
+#: ../single.php:54
+msgid "Comments"
+msgstr ""
+
+#: ../archive.php:35
+#: ../category.php:68
+#: ../taxonomy.php:75
+msgid "Read more..."
+msgstr ""
+
+#: ../comments.php:3
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:29
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../comments.php:36
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:52
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:62
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:70
+msgid "Currently there are no comments related to this article. You have a special honor to be the first commenter. Thanks!"
+msgstr ""
+
+#: ../comments.php:83
+msgid "You must be logged in to post a comment.."
+msgstr ""
+
+#: ../comments.php:86
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:86
+msgid "(Click here to cancel reply)"
+msgstr ""
+
+#: ../comments.php:87
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../functions.php:64
+msgid "Main Menu"
+msgstr ""
+
+#: ../header.php:34
+msgid "You are using Internet Explorer 6.0 or older to view the web. IE6 is an eight year old browser which does not display modern web sites properly.  Please upgrade to a newer browser to fully enjoy the web. <a href=\"http://www.microsoft.com/windows/internet-explorer/default.aspx\">Upgrade your browser</a>"
+msgstr ""
+
+#: ../search.php:16
+msgid "Search results for"
+msgstr ""
+
+#: ../search.php:48
+msgid "Search key not found."
+msgstr ""
+
+#: ../search.php:51
+msgid "Apologies, but we were unable to find what you were looking for. Perhaps searching will help."
+msgstr ""
+
+#: ../template-archives.php:29
+msgid "Archives by Year"
+msgstr ""
+
+#: ../template-archives.php:33
+msgid "Archives by Month"
+msgstr ""
+
+#: ../template-archives.php:37
+msgid "Archives by Subject"
+msgstr ""
+
+#: ../framework/admin/classes/custom_post_type.php:40
+#: ../framework/admin/classes/custom_post_type.php:92
+msgctxt "custom post class"
+msgid "Sort Items"
+msgstr ""
+
+#: ../framework/admin/classes/custom_post_type.php:98
+msgctxt "custom post class"
+msgid "Edit This Post"
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:197
+#: ../framework/admin/classes/r_panel.php:364
+msgid "Insert Link"
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:232
+msgid "This page already exists in:"
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:241
+msgid "Menu Name"
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:248
+msgid "Menu Label"
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:251
+msgid "Menu Link"
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:256
+msgid "Add Menu Item"
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:261
+msgid "Your theme does not have menus. If you want to add this page you need to create a new menu. Go to -> Appearance -> Menus"
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:264
+msgid "Error - The fields can not be empty. Fill in empty fields and try again."
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:265
+msgid "Page has been added to the menu."
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:408
+#: ../framework/admin/classes/metabox.php:418
+#: ../framework/admin/classes/r_panel.php:583
+msgid "Add File"
+msgstr ""
+
+#: ../framework/admin/classes/metabox.php:458
+#: ../framework/admin/classes/r_panel.php:602
+#: ../framework/admin/options/events_manager.php:178
+msgid "The link is incorrect or the image does not exist."
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:176
+msgctxt "r-panel"
+msgid "Save Settings"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:185
+msgctxt "r-panel"
+msgid "Please wait..."
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:185
+#: ../framework/admin/classes/r_panel.php:186
+msgctxt "r-panel"
+msgid "settings saved"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:428
+msgctxt "r-panel"
+msgid "Add New Item"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:618
+msgctxt "r-panel"
+msgid "Permissions"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:622
+msgctxt "r-panel"
+msgid "File/Folder"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:623
+msgctxt "r-panel"
+msgid "Permmission"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:624
+msgctxt "r-panel"
+msgid "Recommended Permission"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:644
+msgctxt "r-panel"
+msgid "PHP"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:648
+#: ../framework/admin/classes/r_panel.php:692
+msgctxt "r-panel"
+msgid "Option"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:649
+#: ../framework/admin/classes/r_panel.php:693
+msgctxt "r-panel"
+msgid "Value"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:652
+msgctxt "r-panel"
+msgid "Current PHP version"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:657
+#: ../framework/admin/classes/r_panel.php:663
+#: ../framework/admin/classes/r_panel.php:671
+#: ../framework/admin/classes/r_panel.php:678
+msgctxt "r-panel"
+msgid "ON"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:658
+#: ../framework/admin/classes/r_panel.php:664
+#: ../framework/admin/classes/r_panel.php:672
+#: ../framework/admin/classes/r_panel.php:679
+msgctxt "r-panel"
+msgid "OFF"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:688
+msgctxt "r-panel"
+msgid "Theme"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:696
+msgctxt "r-panel"
+msgid "Theme name"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:700
+msgctxt "r-panel"
+msgid "Theme version"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:704
+msgctxt "r-panel"
+msgid "R-Panel version"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:708
+msgctxt "r-panel"
+msgid "Framework"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:725
+msgctxt "r-panel"
+msgid "Export Data"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:737
+msgctxt "r-panel"
+msgid "Import Data"
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:741
+msgctxt "r-panel"
+msgid "Paste in the box above previously exported data, and press the save button."
+msgstr ""
+
+#: ../framework/admin/classes/r_panel.php:745
+msgctxt "r-panel"
+msgid "Import data"
+msgstr ""
+
+#: ../framework/admin/functions/admin_functions.php:175
+msgid "Search"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:11
+msgctxt "events manager | post type general name"
+msgid "Events"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:12
+msgctxt "events manager | post type general name"
+msgid "Events Manager"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:13
+msgctxt "events manager | post type general name"
+msgid "Add New"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:14
+msgid "Add New Event"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:15
+msgid "Edit Event"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:16
+msgid "New Event"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:17
+msgid "View Event"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:18
+msgid "Search Items"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:19
+msgid "No events found"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:20
+msgid "No events found in Trash"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:49
+#: ../framework/admin/options/events_manager.php:50
+msgctxt "events manager | post type taxonomy"
+msgid "Event Type"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:131
+msgctxt "events manager | post type column"
+msgid "Event Title"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:132
+msgctxt "events manager | post type column"
+msgid "Event Date"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:133
+msgctxt "events manager | post type column"
+msgid "Days"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:134
+msgctxt "events manager | post type column"
+msgid "Days Left"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:135
+msgctxt "events manager | post type column"
+msgid "Event Type"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:136
+msgctxt "events manager | post type column"
+msgid "Image Preview"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:316
+msgid "Show All"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:364
+msgid "Start Today"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:367
+msgid "Continued"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:392
+#: ../framework/admin/options/metaboxes.php:34
+msgid "Event Date"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:398
+msgid "Type event date eg 2010-09-11"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:419
+msgid "Event Layout"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:427
+msgid "Choose the event layout."
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:430
+msgid "Image"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:438
+msgid "Event image."
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:441
+#: ../framework/admin/options/events_manager.php:519
+#: ../framework/admin/options/metaboxes.php:23
+#: ../framework/admin/options/metaboxes.php:83
+#: ../framework/admin/options/metaboxes.php:192
+#: ../framework/admin/options/metaboxes.php:254
+msgid "Custom Sidebar"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:448
+#: ../framework/admin/options/events_manager.php:526
+#: ../framework/admin/options/metaboxes.php:30
+#: ../framework/admin/options/metaboxes.php:90
+#: ../framework/admin/options/metaboxes.php:199
+#: ../framework/admin/options/metaboxes.php:261
+msgid "Select custom sidebar or select default sidebar."
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:452
+#: ../framework/admin/options/metaboxes.php:94
+msgid "Disable Post Date"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:456
+#: ../framework/admin/options/metaboxes.php:98
+msgid "If this opion is off, you should see post date."
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:459
+#: ../framework/admin/options/metaboxes.php:108
+msgid "Disable Author Information"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:463
+#: ../framework/admin/options/metaboxes.php:112
+msgid "If this opion is off, you should see author information."
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:466
+#: ../framework/admin/options/metaboxes.php:115
+msgid "Disable Bookmarks"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:470
+#: ../framework/admin/options/metaboxes.php:119
+msgid "If this opion is off, you should see bookmarks icons."
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:491
+msgid "Events Layout"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:502
+msgid "Choose the events layout."
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:505
+msgid "Events Items Per Page"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:509
+msgid "Number of events to display per page."
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:512
+msgid "Event Type"
+msgstr ""
+
+#: ../framework/admin/options/events_manager.php:515
+msgid "Select event type"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:7
+msgid "Page Options"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:12
+msgid "Page Layout"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:20
+msgid "Choose the page layout."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:40
+msgid "Paste the full URL (include http://) of your link would like to see after clicking on the image."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:56
+msgid "Post Options"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:61
+msgid "Post Layout"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:69
+msgid "Choose the post layout."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:72
+msgid "Post Image"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:80
+msgid "Post image."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:101
+msgid "Disable Post Categories"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:105
+msgid "If this opion is off, you should see post categories."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:136
+msgid "Homepage Options"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:141
+#: ../framework/admin/options/metaboxes.php:203
+#: ../framework/admin/options/metaboxes.php:306
+msgid "Slider Category"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:147
+#: ../framework/admin/options/metaboxes.php:209
+#: ../framework/admin/options/metaboxes.php:312
+msgid "Select slider category."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:163
+msgid "Homepage Blog Options"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:169
+#: ../framework/admin/options/metaboxes.php:231
+msgid "Blog Layout"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:180
+#: ../framework/admin/options/metaboxes.php:242
+msgid "Choose the blog layout."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:183
+#: ../framework/admin/options/metaboxes.php:245
+msgid "Blog Category"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:188
+#: ../framework/admin/options/metaboxes.php:250
+msgid "Categories without posts are not displayed."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:225
+msgid "Blog Options"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:277
+msgid "Intro Options"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:282
+msgid "Intro Layout"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:292
+msgid "Choose the intro layout."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:295
+msgid "Intro Image"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:303
+msgid "Intro image."
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:316
+msgid "Intro Text"
+msgstr ""
+
+#: ../framework/admin/options/metaboxes.php:321
+msgid "Add text to the intro section below the title. <br/> If you want to change the colour of the text use: &lt;span&gt;&lt;/span&gt;"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:15
+msgctxt "portfolio | post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:16
+msgctxt "portfolio | post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:17
+msgctxt "portfolio"
+msgid "Add New"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:18
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:19
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:20
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:21
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:23
+msgid "No portfolio items found"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:24
+msgid "No portfolio items found in Trash"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:50
+msgctxt "portfolio | post type taxonomy"
+msgid "Categories"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:51
+msgctxt "portfolio | post type taxonomy"
+msgid "Category"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:66
+msgctxt "portfolio | post type column"
+msgid "Title"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:67
+msgctxt "portfolio | post type column"
+msgid "Preview"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:68
+msgctxt "portfolio | post type column"
+msgid "Categories"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:151
+msgctxt "portfolio | post type metabox"
+msgid "Portfolio Options"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:156
+msgid "Portfolio Type"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:165
+msgid "Select portfolio type."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:176
+msgid "Portfolio image."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:179
+#: ../framework/admin/options/slider.php:260
+msgid "Music"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:182
+#: ../framework/admin/options/slider.php:263
+msgid "Add Music File."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:185
+msgid "Music Title"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:188
+msgid "Music title."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:191
+#: ../framework/admin/options/slider.php:199
+msgid "Lightbox Link"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:194
+#: ../framework/admin/options/slider.php:202
+msgid "Paste the full URL (include http://) of your image or video would like to use for jQuery lightbox pop-up effect. Examples on how to format the links can be found here: <br /><a href=\"http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/\" target=\"_blank\">PrettyPhoto</a> under Demos on there homepage."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:197
+msgid "Lightbox Custom Content"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:202
+msgid "Lightbox custom content."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:205
+#: ../framework/admin/options/slider.php:205
+msgid "Custom Link URL"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:208
+#: ../framework/admin/options/slider.php:208
+msgid "Paste the full URL (include http://) of your link or click and select from your site."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:211
+#: ../framework/admin/options/slider.php:211
+msgid "Open Link in New Window"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:215
+#: ../framework/admin/options/slider.php:215
+msgid "If this opion is on, you should see your link in new window or new tab. This option is only working with \"Custom Link URL\"."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:218
+msgid "Portfolio title as a link"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:222
+msgid "If this option is on, you should see portfolio item title as a link. If you click on this link, you will see your portfolio item."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:237
+msgctxt "portfolio | post type metabox"
+msgid "Portfolio Item Options"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:242
+msgid "Portfolio Item Layout"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:250
+msgid "Choose the portfolio item layout."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:305
+#: ../framework/admin/options/portfolio.php:353
+#: ../framework/admin/options/portfolio.php:389
+msgctxt "portfolio template | post type metabox"
+msgid "Portfolio Options"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:311
+msgid "Porfolio Layout"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:320
+msgid "Choose the portfolio layout."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:323
+#: ../framework/admin/options/portfolio.php:359
+#: ../framework/admin/options/portfolio.php:395
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:329
+#: ../framework/admin/options/portfolio.php:365
+#: ../framework/admin/options/portfolio.php:401
+msgid "Select portfolio category."
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:333
+#: ../framework/admin/options/portfolio.php:369
+#: ../framework/admin/options/portfolio.php:405
+msgid "Portfolio Items Per Page"
+msgstr ""
+
+#: ../framework/admin/options/portfolio.php:337
+#: ../framework/admin/options/portfolio.php:373
+#: ../framework/admin/options/portfolio.php:409
+msgid "Number of portfolio items to display per page."
+msgstr ""
+
+#: ../framework/admin/options/slider.php:11
+msgctxt "slider | post type general name"
+msgid "Slider"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:12
+msgctxt "slider | post type singular name"
+msgid "Slider"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:13
+msgctxt "slider"
+msgid "Add New"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:14
+msgid "Add New Slider Item"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:15
+msgid "Edit Slider Item"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:16
+msgid "New Slider Item"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:17
+msgid "View Slider Item"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:19
+msgid "No homepage slider items found"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:20
+msgid "No homepage slider items found in Trash"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:46
+msgctxt "slider | post type taxonomy"
+msgid "Categories"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:47
+msgctxt "slider | post type taxonomy"
+msgid "Category"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:62
+msgctxt "slider | post type column"
+msgid "Title"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:63
+msgctxt "slider | post type column"
+msgid "Preview"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:64
+msgctxt "slider | post type column"
+msgid "Slider type"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:65
+msgctxt "slider | post type column"
+msgid "Categories"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:66
+msgctxt "slider | post type column"
+msgid "Date"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:164
+msgctxt "slider | post type metabox"
+msgid "Slider Options"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:170
+msgid "Slider Type"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:181
+msgid "Select slider type."
+msgstr ""
+
+#: ../framework/admin/options/slider.php:184
+msgid "Image Effect"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:196
+msgid "Select image effect."
+msgstr ""
+
+#: ../framework/admin/options/slider.php:218
+msgid "Hide Slider Description"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:222
+msgid "If this opion is off, you should see slider description."
+msgstr ""
+
+#: ../framework/admin/options/slider.php:225
+msgid "Hide Slider Title"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:229
+msgid "If this opion is off, you should see slider title."
+msgstr ""
+
+#: ../framework/admin/options/slider.php:244
+msgctxt "slider | post type metabox"
+msgid "Slider Media"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:257
+msgid "Slider image. <br/> "
+msgstr ""
+
+#: ../framework/admin/options/slider.php:266
+msgid "YouTube ID"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:269
+msgid "Paste the ID of your YouTube video link would like to see e.g. uaECFlh6ru0"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:272
+msgid "Vimeo ID"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:275
+msgid "Paste the ID of your Vimeo video link would like to see e.g. 6045312"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:7
+#: ../framework/admin/options/theme_settings.php:30
+#: ../framework/admin/options/theme_settings.php:35
+msgctxt "r-panel"
+msgid "General Settings"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:39
+msgctxt "r-panel"
+msgid "Custom Date"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:43
+msgctxt "r-panel"
+msgid "Enter your custom date. <a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Click Here for more information</a>"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:46
+msgctxt "r-panel"
+msgid "Image Quality"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:53
+msgctxt "r-panel"
+msgid "Enter Quality images 0-100 <br/>100 - low compression (good quality)<br/>0 - high compression (weak quality)"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:62
+msgctxt "r-panel"
+msgid "Footer"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:66
+msgctxt "r-panel"
+msgid "Copyright Text"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:71
+msgctxt "r-panel"
+msgid "Enter HTML text."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:74
+msgctxt "r-panel"
+msgid "Footer Widgets"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:78
+msgctxt "r-panel"
+msgid "Show footer widgets."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:87
+msgctxt "r-panel"
+msgid "Google Codes"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:91
+msgctxt "r-panel"
+msgid "Google Analytics Code"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:96
+msgctxt "r-panel"
+msgid "Insert your Google Analytics code here."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:109
+#: ../framework/admin/options/theme_settings.php:114
+msgctxt "r-panel"
+msgid "Customize"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:118
+msgctxt "r-panel"
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:124
+#: ../framework/admin/options/theme_settings.php:134
+msgctxt "r-panel"
+msgid "Add Image"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:125
+msgctxt "r-panel"
+msgid "Upload a 16px x 16px <a href=\"http://favicon-generator.org/\">ico image</a> for your theme, or specify the image address."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:128
+msgctxt "r-panel"
+msgid "Logo image"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:135
+msgctxt "r-panel"
+msgid "Upload a logo for your theme, or specify the image address (http://yoursite.com/your_image.jpg)."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:138
+msgctxt "r-panel"
+msgid "Theme Stylesheet"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:142
+msgctxt "r-panel"
+msgid "Select your color scheme."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:146
+msgctxt "r-panel"
+msgid "Submenu Width"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:153
+msgctxt "r-panel"
+msgid "Enter submenu width."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:156
+msgctxt "r-panel"
+msgid "Portfolio Order"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:160
+msgctxt "r-panel"
+msgid "Portfolio order allows you to set the order of pages through a drag and drop interface or by date."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:167
+msgctxt "r-panel"
+msgid "Custom CSS"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:172
+msgctxt "r-panel"
+msgid "Type your custom CSS rules."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:175
+msgctxt "r-panel"
+msgid "Custom Javascript"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:180
+msgctxt "r-panel"
+msgid "Type your custom Javascript code."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:189
+#: ../framework/admin/options/theme_settings.php:214
+msgctxt "r-panel"
+msgid "Cufon Fonts"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:193
+msgctxt "r-panel"
+msgid "Select Cufon Fonts"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:197
+msgctxt "r-panel"
+msgid "Select cufon fonts."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:200
+msgctxt "r-panel"
+msgid "Cufon Code"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:205
+msgctxt "r-panel"
+msgid ""
+"Sample code: <br/>\n"
+"\t\t\t\t\t<code>\n"
+"\t\t\t\t\tCufon.replace(\"h1,h2,h3,h4,h5,h6\", {fontFamily : \"PT Sans Narrow\", hover: \"true\"});\n"
+"\t\t\t\t\tCufon.replace(\"#intro-text h5\", {fontFamily : \"PT Sans Bold\", hover: \"true\"});\n"
+"\t\t\t\t\t</code><br/>\n"
+"\t\t\t\t\tYou can use the buttons above to paste the prepared code, you need only enter the HTML elements that you want to have been replaced. For more code tips go to official <a href=\"http://wiki.github.com/sorccu/cufon/styling\">Cufon's site</a>.\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:218
+msgctxt "r-panel"
+msgid "If this option is enabled automatically text elements will be replaced with the Cufon fonts."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:227
+msgctxt "r-panel"
+msgid "Lightbox"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:231
+msgctxt "r-panel"
+msgid "PrettyPhoto Lightbox"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:235
+msgctxt "r-panel"
+msgid "Enable PrettyPhoto lightbox. <a href=\"http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/\">Read more about prettyPhoto lightbox</a>."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:238
+msgctxt "r-panel"
+msgid "Lightbox Deeplinking"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:242
+msgctxt "r-panel"
+msgid "Allow lightbox to update the url to enable deeplinking."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:245
+msgctxt "r-panel"
+msgid "Show Lightbox Social Tools"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:249
+msgctxt "r-panel"
+msgid "Show lightbox social tools in popup window."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:252
+msgctxt "r-panel"
+msgid "Lightbox Overlay Gallery"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:256
+msgctxt "r-panel"
+msgid "If set to true, a gallery will overlay the fullscreen image on mouse over."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:259
+msgctxt "r-panel"
+msgid "Lightbox Style"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:263
+msgctxt "r-panel"
+msgid "Please select your lightbox scheme."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:284
+msgctxt "r-panel"
+msgid "Homepage"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:291
+msgctxt "r-panel"
+msgid "Slider"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:295
+msgctxt "r-panel"
+msgid "Homepage Slider Delay"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:302
+msgctxt "r-panel"
+msgid "Type homepage slider delay (in seconds), value '0' is disable timer."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:305
+msgctxt "r-panel"
+msgid "Slide Transition Speed"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:312
+msgctxt "r-panel"
+msgid "Type homepage slider speed (in milliseconds)."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:315
+msgctxt "r-panel"
+msgid "Disable Slider Navigation"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:319
+msgctxt "r-panel"
+msgid "If this option is enabled then disappears slider navigation."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:322
+msgctxt "r-panel"
+msgid "Homepage Slider Easing"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:326
+msgctxt "r-panel"
+msgid "Select Homepage slider easing."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:367
+msgctxt "r-panel"
+msgid "Content"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:371
+msgctxt "r-panel"
+msgid "Show Only Text Box"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:375
+msgctxt "r-panel"
+msgid "If this option is enabled you should see on the home page only the content of the text box and the remaining items will be hidden."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:378
+msgctxt "r-panel"
+msgid "Text Box <span>(heading)</span>"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:382
+msgctxt "r-panel"
+msgid "Enter HTML text <br/> If you want to change the colour of the text use: &lt;span>&lt;/span>"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:385
+msgctxt "r-panel"
+msgid "Text Box <span>(content)</span>"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:391
+msgctxt "r-panel"
+msgid "Entered text is visible on the homepage under the slider."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:394
+msgctxt "r-panel"
+msgid "Recent Posts / Events <span>(heading)</span>"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:398
+msgctxt "r-panel"
+msgid "Enter HTML text <br/> If you want to change the colour of the text use: &lt;span>&lt;/span> tag."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:401
+msgctxt "r-panel"
+msgid "Recent Posts Category"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:407
+msgctxt "r-panel"
+msgid "Select recent posts category. Categories without posts are not displayed."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:410
+msgctxt "r-panel"
+msgid "Recent Posts / Events Date Format"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:414
+msgctxt "r-panel"
+msgid "Please select your date format."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:421
+msgctxt "r-panel"
+msgid "Events Manager"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:425
+msgctxt "r-panel"
+msgid "If this opion is enabled, you should see future events on the homepage."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:428
+msgctxt "r-panel"
+msgid "Events Manager Order"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:432
+msgctxt "r-panel"
+msgid "Please select events order."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:439
+msgctxt "r-panel"
+msgid "Recent Works <span>(heading)</span>"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:443
+msgctxt "r-panel"
+msgid "If you want to change the colour of the text use: &lt;span>&lt;/span> tag."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:446
+msgctxt "r-panel"
+msgid "Recent Works Category"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:452
+msgctxt "r-panel"
+msgid "Select recent works category."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:456
+msgctxt "r-panel"
+msgid "Number of Recent Works"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:460
+msgctxt "r-panel"
+msgid "Enter the number of recent works that you see on the homepage. If you want to see all items from the category type \"-1\"."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:472
+#: ../framework/admin/options/theme_settings.php:477
+msgctxt "r-panel"
+msgid "Social Integration"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:481
+msgctxt "r-panel"
+msgid "Display RSS Icon"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:485
+msgctxt "r-panel"
+msgid "If this opion is enabled, you should see the RSS icon in the footer section."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:488
+msgctxt "r-panel"
+msgid "Twitter Username"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:492
+msgctxt "r-panel"
+msgid "Enter your Twitter USERNAME. The passes of the name is necessary to the using LAST TWEET shortcode."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:495
+msgctxt "r-panel"
+msgid "Twitter URL"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:499
+msgctxt "r-panel"
+msgid "Enter your Twitter URL e.g http://twitter.com/your_twitter_name"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:502
+msgctxt "r-panel"
+msgid "Facebook URL"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:506
+msgctxt "r-panel"
+msgid "Enter your Facebook URL e.g http://facebook.com/"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:509
+msgctxt "r-panel"
+msgid "Flickr URL"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:513
+msgctxt "r-panel"
+msgid "Enter your Flickr URL e.g http://flickr.com/"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:516
+msgctxt "r-panel"
+msgid "Lastfm URL"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:520
+msgctxt "r-panel"
+msgid "Enter your Lastfm URL e.g http://lastfm.com/"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:523
+msgctxt "r-panel"
+msgid "MySpace URL"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:527
+msgctxt "r-panel"
+msgid "Enter your Myspace URL e.g http://myspace.com/"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:530
+msgctxt "r-panel"
+msgid "YouTube URL"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:534
+msgctxt "r-panel"
+msgid "Enter your YouTube URL e.g http://youtube.com/"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:546
+#: ../framework/admin/options/theme_settings.php:551
+msgctxt "r-panel"
+msgid "Contact Form"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:555
+msgctxt "r-panel"
+msgid "Default e-mail address"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:559
+msgctxt "r-panel"
+msgid "Enter your default e-mail address."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:562
+msgctxt "r-panel"
+msgid "Anty spam question"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:566
+msgctxt "r-panel"
+msgid "Enter your anty spam question."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:569
+msgctxt "r-panel"
+msgid "Anty spam answer"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:573
+msgctxt "r-panel"
+msgid "Enter your anty spam answer."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:585
+#: ../framework/admin/options/theme_settings.php:590
+#: ../framework/admin/options/theme_settings.php:594
+msgctxt "r-panel"
+msgid "Sidebars"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:601
+msgctxt "r-panel"
+msgid "Add your custom sideabrs."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:613
+#: ../framework/admin/options/theme_settings.php:618
+msgctxt "r-panel"
+msgid "System Information"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:635
+#: ../framework/admin/options/theme_settings.php:640
+msgctxt "r-panel"
+msgid "Advanced"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:644
+msgctxt "r-panel"
+msgid "cURL"
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:648
+msgctxt "r-panel"
+msgid "Enable this option if the images do not appear correctly. Important - your server must have the cURL extension. You can check this in the \"System Information\"."
+msgstr ""
+
+#: ../framework/admin/options/theme_settings.php:657
+msgctxt "r-panel"
+msgid "Import/Export"
+msgstr ""
+
+#: ../framework/admin/shortcodes_manager/shortcodes_manager_win.php:16
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: ../framework/admin/shortcodes_manager/shortcodes_manager_win.php:174
+msgid "Cancel"
+msgstr ""
+
+#: ../framework/admin/shortcodes_manager/shortcodes_manager_win.php:177
+msgid "Insert"
+msgstr ""
+
+#: ../framework/functions/functions.php:72
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: ../framework/functions/functions.php:73
+msgid "Password:"
+msgstr ""
+
+#: ../framework/functions/functions.php:99
+#: ../framework/functions/functions.php:103
+msgid "HOME"
+msgstr ""
+
+#: ../framework/functions/functions.php:177
+msgid "Author:"
+msgstr ""
+
+#: ../framework/functions/functions.php:183
+msgid "Archives"
+msgstr ""
+
+#: ../framework/functions/functions.php:189
+msgid "Tag:"
+msgstr ""
+
+#: ../framework/functions/functions.php:195
+msgid "Search Results"
+msgstr ""
+
+#: ../framework/functions/functions.php:201
+msgid "Error 404"
+msgstr ""
+
+#: ../framework/functions/functions.php:226
+msgid "RSS not configured"
+msgstr ""
+
+#: ../framework/functions/functions.php:230
+msgid "No public Twitter messages"
+msgstr ""
+
+#: ../framework/functions/functions.php:236
+msgid "ago"
+msgstr ""
+
+#: ../framework/functions/shortcodes.php:474
+msgid "Currently we have no events."
+msgstr ""
+
+#: ../framework/functions/shortcodes.php:611
+msgid "* Name:"
+msgstr ""
+
+#: ../framework/functions/shortcodes.php:615
+msgid "* E-mail:"
+msgstr ""
+
+#: ../framework/functions/shortcodes.php:619
+msgid "* Subject:"
+msgstr ""
+
+#: ../framework/functions/shortcodes.php:623
+msgid "Phone:"
+msgstr ""
+
+#: ../framework/functions/shortcodes.php:627
+msgid "* Message:"
+msgstr ""
+
+#: ../framework/functions/shortcodes.php:635
+msgid "Send message"
+msgstr ""
+
+#: ../framework/functions/wp_pagenavi.php:22
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: ../framework/functions/wp_pagenavi.php:25
+msgid "&laquo; First"
+msgstr ""
+
+#: ../framework/functions/wp_pagenavi.php:26
+msgid "Last &raquo;"
+msgstr ""
+
+#: ../framework/functions/wp_pagenavi.php:27
+msgid "&raquo;"
+msgstr ""
+
+#: ../framework/functions/wp_pagenavi.php:28
+msgid "&laquo;"
+msgstr ""
+
+#: ../framework/functions/wp_pagenavi.php:29
+#: ../framework/functions/wp_pagenavi.php:30
+msgid "..."
+msgstr ""
+
+#: ../framework/scripts/scripts.php:26
+msgid "Error: Invalid answer"
+msgstr ""
+
+#: ../framework/scripts/scripts.php:27
+msgid "Error: Value is not valid"
+msgstr ""
+
+#: ../framework/scripts/scripts.php:28
+msgid "Your message has been sent. Thank you for contacting us.!"
+msgstr ""
+
+#: ../framework/scripts/scripts.php:29
+msgid "Error: Sending message"
+msgstr ""
+
+#: ../framework/widgets/r_cat.php:20
+msgctxt "r-cat"
+msgid "Display and exclude categories"
+msgstr ""
+
+#: ../framework/widgets/r_cat.php:31
+msgctxt "r-cat"
+msgid "R-Cat"
+msgstr ""
+
+#: ../framework/widgets/r_cat.php:66
+msgctxt "r-cat"
+msgid "Categories"
+msgstr ""
+
+#: ../framework/widgets/r_cat.php:69
+msgctxt "r-cat"
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets/r_cat.php:73
+msgctxt "r-cat"
+msgid "Type category ID to exclude:"
+msgstr ""
+
+#: ../framework/widgets/r_cat.php:75
+msgctxt "r-cat"
+msgid "Separate by commas eg 12,23,45"
+msgstr ""
+
+#: ../framework/widgets/r_cat.php:83
+msgctxt "r-cat"
+msgid "Show post counts"
+msgstr ""
+
+#: ../framework/widgets/r_comments.php:20
+msgctxt "r-comments"
+msgid "Display latests comments"
+msgstr ""
+
+#: ../framework/widgets/r_comments.php:31
+msgctxt "r-comments"
+msgid "R-Comments"
+msgstr ""
+
+#: ../framework/widgets/r_comments.php:62
+msgctxt "r-comments"
+msgid "No Comments"
+msgstr ""
+
+#: ../framework/widgets/r_comments.php:82
+msgctxt "r-widget"
+msgid "Recent Comments"
+msgstr ""
+
+#: ../framework/widgets/r_comments.php:85
+#: ../framework/widgets/r_posts.php:107
+msgctxt "r-widget"
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets/r_comments.php:89
+msgctxt "r-comments"
+msgid "Number of comments:"
+msgstr ""
+
+#: ../framework/widgets/r_comments.php:93
+msgctxt "r-comments"
+msgid "Type the word limit for the comment:"
+msgstr ""
+
+#: ../framework/widgets/r_comments.php:95
+msgctxt "r-comments"
+msgid "Enter the number of words eg 5."
+msgstr ""
+
+#: ../framework/widgets/r_flickr.php:20
+msgctxt "r-flickr"
+msgid "Display images from flickr"
+msgstr ""
+
+#: ../framework/widgets/r_flickr.php:31
+msgctxt "r-flickr"
+msgid "R-Flickr"
+msgstr ""
+
+#: ../framework/widgets/r_flickr.php:49
+msgctxt "r-flickr"
+msgid "The Flickr ID is invalid or does not exist."
+msgstr ""
+
+#: ../framework/widgets/r_flickr.php:71
+msgctxt "r-flickr"
+msgid "Flickr"
+msgstr ""
+
+#: ../framework/widgets/r_flickr.php:74
+msgctxt "r-flickr"
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets/r_flickr.php:78
+msgctxt "r-flickr"
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../framework/widgets/r_flickr.php:80
+msgctxt "r-flickr"
+msgid "Find your Flickr user or group id"
+msgstr ""
+
+#: ../framework/widgets/r_flickr.php:83
+msgctxt "r-flickr"
+msgid "Number of photos:"
+msgstr ""
+
+#: ../framework/widgets/r_posts.php:20
+msgctxt "r-posts"
+msgid "Display latest posts"
+msgstr ""
+
+#: ../framework/widgets/r_posts.php:31
+msgctxt "r-posts"
+msgid "R-Posts"
+msgstr ""
+
+#: ../framework/widgets/r_posts.php:104
+msgctxt "r-posts"
+msgid "Recent Posts"
+msgstr ""
+
+#: ../framework/widgets/r_posts.php:111
+msgctxt "r-posts"
+msgid "Select category:"
+msgstr ""
+
+#: ../framework/widgets/r_posts.php:117
+msgctxt "r-posts"
+msgid "All"
+msgstr ""
+
+#: ../framework/widgets/r_posts.php:130
+msgctxt "r-posts"
+msgid "Number of posts:"
+msgstr ""
+
+#: ../framework/widgets/r_posts.php:135
+msgctxt "r-posts"
+msgid "Type the word limit for the post:"
+msgstr ""
+
+#: ../framework/widgets/r_posts.php:137
+msgctxt "r-posts"
+msgid "Enter the number of words eg 10."
+msgstr ""
+
+#: ../framework/widgets/r_posts.php:146
+msgctxt "r-posts"
+msgid "Display post thumbnails"
+msgstr ""
+
+#: ../framework/widgets/r_twitter.php:20
+msgctxt "r-twitter"
+msgid "Display latest tweets from twitter"
+msgstr ""
+
+#: ../framework/widgets/r_twitter.php:31
+msgctxt "r-twitter"
+msgid "R-Twitter"
+msgstr ""
+
+#: ../framework/widgets/r_twitter.php:68
+msgctxt "r-twitter"
+msgid "Tweets"
+msgstr ""
+
+#: ../framework/widgets/r_twitter.php:71
+msgctxt "r-twitter"
+msgid "Title:"
+msgstr ""
+
+#: ../framework/widgets/r_twitter.php:75
+msgctxt "r-twitter"
+msgid "Username"
+msgstr ""
+
+#: ../framework/widgets/r_twitter.php:79
+msgctxt "r-twitter"
+msgid "Number of links"
+msgstr ""
+
+#: ../framework/widgets/r_twitter.php:81
+msgctxt "r-twitter"
+msgid "20 is the maximum"
+msgstr ""
+
+#: ../includes/intro.php:112
+#: ../includes/intro.php:116
+msgctxt "intro"
+msgid "Categories"
+msgstr ""
+
+#: ../includes/intro.php:126
+msgctxt "intro"
+msgid "Search"
+msgstr ""
+
+#: ../includes/intro.php:128
+msgctxt "intro"
+msgid "Error 404"
+msgstr ""
+
+#: ../includes/recent_slider.php:164
+msgid "Play track"
+msgstr ""
+

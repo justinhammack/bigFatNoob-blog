@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Sidebar</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Rascals Labs" />
+<meta name="description" content="Rascals Labs" />
+<meta name="author" content="Rascals Labs" />
+<link rel="stylesheet" type="text/css" href="../layout/sidebar.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="../scripts/treeView/jquery.treeview.css" media="screen"/>
+<script type="text/javascript" src="../scripts/jquery.js"></script>
+<script type="text/javascript" src="../scripts/jquery.cookie.js"></script>
+<script type="text/javascript" src="../scripts/treeView/jquery.treeview.min.js"></script>
+<script type="text/javascript">
+		$(document).ready(function(){
+			$("#sidebar-menu").treeview({
+				animated: "fast",
+				control:"#sidetreecontrol",
+				persist: "cookie",
+				cookieId: "treeview-black",
+				collapsed: true
+			
+			});
+		})
+		
+	</script>
+</head>
+<body>
+<!-- start sidebar -->
+<div id="sidebar-top">
+  <div id="theme-icon"></div>
+</div>
+<div id="sidebar">
+  <div id="theme-version"><span>Documentation for Pendulum</span><span>Copyright &copy; 2011 Rascals Labs</span></div>
+  <div id="sidetreecontrol"> <a href="?#">Collapse All</a> | <a href="?#">Expand All</a> </div>
+  <ul id="sidebar-menu">
+    <li><a href="introduction.html" target="main"><span>Introduction</span></a></li>
+    <li><a href="requirements.html" target="main"><span>Requirements</span></a></li>
+    <li><span>Installation</span>
+      <ul>
+        <li><a href="wp-installation.html" target="main"><span>Theme installation</span></a></li>
+        <li><a href="wp-setup.html" target="main"><span>Wordpress setup</span></a></li>
+        <li><a href="wp-images.html" target="main"><span>Setup Images</span></a></li>
+        <li><a href="wp-problems.html" target="main"><span>Installation problems</span></a></li>
+      </ul>
+    </li>
+    <li><a href="video.html" target="main"><span>Video manual</span></a></li>
+    <li><a href="translation.html" target="main"><span>Translation</span></a></li>
+    <li><a href="widgets.html" target="main"><span>Widgets and sidebars</span></a></li>
+    <li><span>Shortcodes</span>
+      <ul>
+        <li><a href="shortcodes.html" target="main"><span>What is a shortcode?</span></a></li>
+        <li><a href="shortcodes_list.html" target="main"><span>Available shortcodes</span></a></li>
+      </ul>
+    </li>
+    <li><a href="psd.html" target="main"><span>PSD files</span></a></li>
+    <li><a href="css.html" target="main"><span>CSS files</span></a></li>
+    <li><a href="javascript.html" target="main"><span>Javascript</span></a></li>
+    <li><a href="credits.html" target="main"><span>Credits</span></a></li>
+    <li><a href="support.html" target="main"><span>Support</span></a></li>
+  </ul>
+</div>
+<!-- end sidebar -->
+</body>
+</html>
