@@ -1,6 +1,6 @@
 echo "Is style.css updated? If so, please specify the version:"
 read input_variable
-tar -czvf DDH-THEME.$input_variable.tar.gz DDH-THEME/
+tar -czvf DDH_THEME.$input_variable.tar.gz DDH_THEME/
 git add .
 git commit -am 'update to version $input_variable'
 git push
