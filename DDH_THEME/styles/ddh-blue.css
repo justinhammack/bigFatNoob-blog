@@ -8,7 +8,8 @@
  ------------------------------------------------------------------------*/
 
 /* Text Color */
-a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, #intro-text h5, ul#menu li li a:hover, h1.entry-heading a:hover, h2.entry-heading a:hover, span.meta-comments a:hover, .portfolio h2, .caption h2, .release-data h2, .comment-text h4 a:hover, .rs-caption h3, .news-entry a, .widget_r_twitter ul li p a, .widget_r_comments ul li a, .widget_r_posts ul li a, .widget_r_newsletter h3, .rf span, .news-entry .news-content a { color:#3131C5}
+a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, #intro-text h5, ul#menu li li a:hover, h1.entry-heading a:hover, h2.entry-heading a:hover, span.meta-comments a:hover, .portfolio h2, .caption h2, .release-data h2, .comment-text h4 a:hover, .rs-caption h3, .news-entry a, .widget_r_twitter ul li p a, .widget_r_comments ul li a, .widget_r_posts ul li a, .widget_r_newsletter h3, .rf span, .news-entry .news-content a { 
+color:#3C4CDD; /*#3131C5*/}
 
 /* Backgrounds */
 #header-stripe, ul#menu li a:hover, .entry input.pass_submit:hover, ul#menu .hover { background:#00008B; }
