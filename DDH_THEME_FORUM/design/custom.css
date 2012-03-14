@@ -1,0 +1,320 @@
+body {
+    color: #fff;
+    background: #111;
+}
+
+#Head {
+    background: #333;
+    border-bottom: 1px solid #555;
+}
+
+a {
+    color: #ddd;
+}
+
+a:hover {
+    color: #fff;
+}
+
+body.Entry #Content h1 {
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+#Form_Form {
+    background: red;
+    padding-bottom: 10px;
+    background: #444;
+    border: 1px solid #666;
+    border-right: none;
+    border-left: none;
+}
+
+.Popup #Form_Form {
+    background: #fff;
+}
+
+.Activities .DataList li {
+    background: #111;
+    border: 1px solid #333;
+}
+
+.Foot {
+    background: #bb3c3c;
+    border: 1px solid #ba5454;
+}
+
+#Foot div {
+	margin: 0 auto 0;
+    padding: 0px;
+}
+
+.Box p {
+    color: #ddd;
+}
+
+.Tabs .Breadcrumbs {
+    background: #191919;
+}
+
+a.Bookmark,
+a.Bookmarked,
+a.Bookmarking {
+    background: url('images/star_sprite.png') top center no-repeat;
+}
+
+a.Bookmark span,
+a.Bookmarking span {
+    display: none;
+}
+a.Bookmarked {
+    background-position: center center;
+}
+a.Bookmarking {
+    background-position: bottom center;
+}
+
+.Box {
+    background: #333;
+    border: 1px solid #555;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.User h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.Box h4 {
+    color: #fff;
+}
+
+.Box dl dt {
+    color: #555;
+}
+
+.Preview {
+	background: #222;
+    border: 1px solid #444;
+}
+
+#DiscussionForm form {
+    background: #222;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+#DiscussionForm form label {
+    color: #fff;
+}
+
+a.Button,
+.Button {
+    color: #111;
+}
+
+.DataList li.Mine .Meta a.Category {
+   background: #555;
+}
+
+.DataList .Meta a.Category {
+   background: #555;
+}
+
+div.Popup {
+    color: #111;
+}
+
+div.Popup a {
+    color: #333;
+}
+
+.Activities li.Condensed .Excerpt {
+    color: #fff;
+}
+
+div.Popup a:hover {
+    text-decoration: none;
+}
+
+body.Profile ul.Activities {
+    border-top: 1px solid #333;
+}
+
+.DataList .Meta .Announcement {
+    background: #4242a9;
+    font-weight: normal;
+}
+
+.DataList .Meta .Closed {
+    background: #bb3c3c;
+    font-weight: normal;
+}
+
+.PanelInfo li {
+    background: #444;
+    border: none;
+}
+
+.Activities .Excerpt a,
+.Activities .Meta a {
+   color: #ddd;
+}
+
+.Activities .Excerpt a:hover,
+.Activities .Meta a:hover {
+   color: #fff;
+}
+
+body.Profile .PanelInfo {
+   border-bottom: 1px solid #555;
+   margin: 3px 0 3px 0;
+}
+
+.DataList .Options,
+.MessageList .Options {
+   margin: 7px 4px 0 0;
+}
+
+.PanelInfo .Active {
+    background: #fff;
+    border: none;
+}
+
+.DataList .Item {
+    background: #222;
+    border: 1px solid #333;
+    border-top: none;
+}
+
+body.Entry form ul li label {
+	color: #ddd;
+}
+
+.PanelInfo .Active a {
+    color: #111;
+}
+
+.PanelInfo {
+    border: 1px solid #555;
+}
+
+.MessageForm,
+.Tabs,
+.Headings {
+    background: #333333;
+    border-bottom: #555;
+}
+
+.TabLink,
+.TabLink:link,
+.TabLink:hover,
+.TabLink:active,
+.TabLink:visited {
+    background: #222;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.Tabs li a span {
+    background: #4ec14c;
+    color: #000;
+}
+
+#Bookmark_List {
+    border-bottom: none;
+}
+
+#Bookmark_List li {
+    border-bottom: 1px solid #555;
+}
+
+.Active .TabLink {
+   background: #111;
+    border: 1px solid #222;
+    color: #fff;
+}
+
+#Menu a:hover {
+    background: #555;
+    text-decoration: none;
+}
+
+a.BigButton {
+    color: #333;
+}
+
+div.Popup h1,
+div.Popup h2 {
+	background: #dc4545;
+    border-bottom: 1px solid #bb3c3c;
+}
+
+#ThemeCredit {
+	font-size: 9px;
+	color: #333;
+}
+
+#Foot {
+    margin-bottom: 10px;
+}
+
+#ThemeCredit a {
+	color: #333;
+}
+
+#tsheader {
+    height: 78px;
+    background: url('/images/header_bg.png') repeat-x #030303;
+}
+
+#tsheader_wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#tslogo {
+    padding: 8px 0 0 0;
+    float: left;
+    margin: 0 35px 0 15px;
+}
+
+#tsnav {
+    float: left;
+    border-left: 1px solid #24202c;
+}
+
+#tsnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#tsnav ul a {
+    color: #eee;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#tsnav ul a:hover {
+    color: #fff;
+    background: url('/images/nav_link_bg_hover.png');
+}
+
+#tsnav ul li {
+    float: left;
+}
+
+#tsnav ul li a {
+    float: left;
+    padding: 28px 35px 28px 35px;
+    background: url('/images/nav_link_bg.png') repeat-x;
+    border-right: 1px solid #24202c;
+}
