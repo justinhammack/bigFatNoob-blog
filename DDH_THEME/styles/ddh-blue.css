@@ -22,3 +22,8 @@ color:#3C4CDD; /*#3131C5*/}
 .widget li a:hover {
   margin-left:0;
 }
+
+/* Remove BG2 */
+#bg-wrap {
+  background: none;
+}

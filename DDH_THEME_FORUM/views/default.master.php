@@ -2,23 +2,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-ca">
 <head>
-  <link rel="stylesheet" href="design/darkhand.css" type="text/css" media="screen" />
-  <link rel="stylesheet" id="color-style-css" href="http://localhost/ddh-blog/wp-content/themes/ddh-theme/styles/ddh-blue.css" type="text/css" media="screen">
+  <link rel="stylesheet" id="color-style-css" href="/wordpress/wp-content/themes/DDH_THEME/styles/ddh-blue.css" type="text/css" media="screen">
   <?php $this->RenderAsset('Head'); ?>
+  <link rel="stylesheet" href="/forums/themes/DDH_THEME_FORUM/design/darkhand.css" type="text/css" media="screen" />
 </head>
 <body id="<?php echo $BodyIdentifier; ?>" class="<?php echo $this->CssClass; ?>">
    <div id="header-stripe"></div>
-   <div id="header">
+   <div id="wpheader">
       <div id="header-content">
-          <div id="logo">
-            <a href="http://localhost/ddh-blog" title="DDH"><img src="http://localhost/ddh-blog/wp-content/uploads/2012/02/ddh-redesign.png" title="DDH" alt="DDH"></a>
+          <div id="wplogo">
+            <a href="/" title="Darkhand"><img src="http://the-darkhand.com/wordpress/wp-content/uploads/2012/03/darkhandlogo2.png" title="DDH" alt="DDH"></a>
           </div>
-          <div id="menu-wrap">
-            <div class="menu-main-menu-container">
-              <ul id="menu" class="menu level0">
-                <li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11"><a href="http://localhost/ddh-blog/" class="level0">Home</a></li>
-                <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://localhost/ddh-blog/?page_id=14" class="level0">Videos</a></li>
-                <li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="http://darkhand.com" class="level0">Forums</a></li>
+          <div id="wpmenu-wrap">
+            <div class="wpmenu-main-menu-container">
+              <ul id="wpmenu" class="wpmenu level0">
+                <li class="wpmenu-item menu-item-type-post_type menu-item-object-page menu-item-11"><a href="/" class="level0">Home</a></li>
+                <li class="wpmenu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="/forums/" class="level0">Forums</a></li>
+                <li class="wpmenu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="/about-us/" class="level0">About Us</a></li>
               </ul>
             </div>
           </div>

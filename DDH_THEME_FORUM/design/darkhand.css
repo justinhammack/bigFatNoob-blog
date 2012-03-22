@@ -1,9 +1,139 @@
 /* Custom DDH Header */
 
-#header {
+#wpheader {
 height: auto;
 width: 960px;
 position: relative;
 z-index: 5;
 margin: 0 auto;
 }
+
+#header-content {
+overflow: hidden;
+}
+
+#header-stripe {
+width: 100%;
+background: #09C;
+height: 10px;
+}
+
+#wplogo {
+float: left;
+}
+
+#wplogo img {
+padding: 25px 0 25px 10px;
+border: 0;
+}
+
+#wpmenu-wrap {
+position: absolute;
+height: 30px;
+right: 0;
+margin-top: -20px;
+margin-bottom: -20px;
+display: inline;
+top: 50%;
+bottom: 50%;
+clear: both;
+z-index: 999;
+}
+
+ul#wpmenu {
+position: relative;
+z-index: 1;
+}
+
+ol, ul {
+list-style: none;
+}
+
+ul#wpmenu li {
+position: relative;
+display: inline;
+float: left;
+margin-left: 10px;
+padding-bottom: 5px;
+}
+
+ul#wpmenu li a {
+display: block;
+height: 100%;
+padding: 0 10px;
+text-align: left;
+line-height: 40px;
+font-size: 12px;
+color: white;
+font-weight: normal;
+text-transform: uppercase;
+text-decoration: none;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background: transparent url('images/opacity50.png') left top repeat scroll;
+}
+
+ul#wpmenu li a:hover, ul#wpmenu .hover {
+color: white;
+background-color: #09C;
+-webkit-transition: all .2s ease-out;
+background-color: #09C;
+-moz-transition: all .2s ease-out;
+background-color: #09C;
+transition: all .2s ease-out;
+}
+
+#header-stripe, ul#wpmenu li a:hover, .entry input.pass_submit:hover, ul#wpmenu .hover {
+background: darkBlue;
+}
+
+ul.MessageList li.Item {
+background: none !important;
+}
+
+/* Fixes Color of Comment Box */
+textarea { 
+  background-color: #000;
+  color: #CCC;
+}
+textarea:focus {
+  background-color: #1E1E1E;
+}
+
+/* Fixes to Sidebar */
+.PanelInfo .Active {
+background: #2626BF; }
+.PanelInfo .Active a {
+color: white; }
+
+/* Fixes to Voting.css */
+.Message h1, .Message h2, .Message h3, .Message h4, .Message h5 {
+  color: white;
+}
+
+div.AnswerTabs { background-color: #333; }
+div.AnswerTabs strong { color: #999; }
+div.AnswerTabs li.Active a { background-color: #444 }
+.MessageList .Meta .CommentInfo a { color: #777 }
+
+/* Fixes to Quotes */
+body ul div.Comment blockquote.UserQuote {
+  background-color: #191919;
+}
+div.Comment blockquote.UserQuote div.QuoteText {
+  color: #888;
+}
+div.Comment blockquote.UserQuote div.QuoteAuthor {
+  font-style: italic;
+}
+
+/* Fixes to PMs */
+.DataList .Excerpt a {
+  color: #EEE;
+  display: block;
+}
+
+/* Fixes Message Box */
+#MessageForm { background: #333; }
+#MessageForm h2 { color: #EEE; }

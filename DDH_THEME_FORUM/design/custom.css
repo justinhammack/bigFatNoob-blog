@@ -1,6 +1,7 @@
 body {
     color: #fff;
     background: #111;
+    background: #191919 url('images/bg.jpg') left top repeat;
 }
 
 #Head {
