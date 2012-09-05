@@ -28,6 +28,8 @@ ul#menu li ul {
 <?php if (isset($r_option['custom_css']) && $r_option['custom_css'] != '') echo $r_option['custom_css']; ?>
 --></style>
 <?php if (isset($r_option['custom_js']) && $r_option['custom_js'] != '') echo $r_option['custom_js']; ?>
+<!-- GUILD WARS 2 CUSTOM SCRIPT -->
+<script type="text/javascript" src="http://static-ascalon.cursecdn.com/1-0-4619-33130/js/syndication/tt.js"></script>
 </head>
 <body  <?php body_class(); ?>>
 <!--[if lte IE 6]>
