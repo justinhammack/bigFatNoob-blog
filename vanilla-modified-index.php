@@ -1,11 +1,11 @@
 <?php
 define('APPLICATION', 'Vanilla');
 define('APPLICATION_VERSION', '2.0.18.4');
-/* require_once('../wp-config.php');
+
+/* LOAD WORDPRESS ENVIRONMENT */
+require_once('../wp-config.php');
 $wp->init();
-$wp->register_globals(); */
-define('WP_USE_THEMES', false);
-include('../wp-blog-header.php');
+$wp->register_globals();
 
 /*
 Copyright 2008, 2009 Vanilla Forums Inc.

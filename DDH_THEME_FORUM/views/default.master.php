@@ -1,21 +1,20 @@
-<?php
-  /* define('WP_USE_THEMES', false);
-  include('../wp-blog-header.php'); */
-echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
+<?php echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-ca">
 <head>
-  <link rel="stylesheet" id="color-style-css" href="/wordpress/wp-content/themes/DDH_THEME/styles/ddh-blue.css" type="text/css" media="screen">
+  <link rel="stylesheet" id="color-style-css" href="http://the-darkhand.com/wordpress/wp-content/themes/DDH_THEME/styles/ddh-blue.css" type="text/css" media="screen">
   <?php $this->RenderAsset('Head'); ?>
-  <link rel="stylesheet" href="/forums/themes/DDH_THEME_FORUM/design/darkhand.css" type="text/css" media="screen" />
-  <script type="text/javascript" src="http://static-ascalon.cursecdn.com/1-0-4619-33130/js/syndication/tt.js"></script>
-</head>
-<body id="<?php echo $BodyIdentifier; ?>" class="<?php echo $this->CssClass; ?>">
-  <div id="header-stripe"></div>
   <?php
     /* Short and sweet */
-    get_header();
+    require( TEMPLATEPATH . '/header-vanilla.php' );
   ?>
+
+
+<!-- old vanilla header </head>
+<body id="<?php echo $BodyIdentifier; ?>" class="<?php echo $this->CssClass; ?>">
+  <div id="header-stripe"></div> -->
+
+
   <!-- <div id="wpheader">
       <div id="header-content">
           <div id="wplogo">
