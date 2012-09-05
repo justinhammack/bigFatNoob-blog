@@ -3,12 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-ca">
 <head>
   <link rel="stylesheet" id="color-style-css" href="http://the-darkhand.com/wordpress/wp-content/themes/DDH_THEME/styles/ddh-blue.css" type="text/css" media="screen">
+
   <?php $this->RenderAsset('Head'); ?>
   <?php
     /* Short and sweet */
     require( TEMPLATEPATH . '/header-vanilla.php' );
   ?>
-
+  <script type="text/javascript" src="http://the-darkhand.com/wordpress/wp-content/themes/DDH_THEME/framework/scripts/jquery.R-Menu.js?ver=1.2"></script>
 
 <!-- old vanilla header </head>
 <body id="<?php echo $BodyIdentifier; ?>" class="<?php echo $this->CssClass; ?>">
@@ -84,5 +85,21 @@
 	  </div>
    </div>
 	<?php $this->FireEvent('AfterBody'); ?>
+  <script type="text/javascript">
+    jQuery(document).ready(function () {
+      if (jQuery.fn.RMenu) {
+        jQuery('ul#menu').RMenu({
+                    sub_menu_width    : parseInt(jQuery('#menu ul').css('width')),
+                    menu_height     : 45, // Menu height px
+                    fade_effect     : 'true'
+                    });
+
+        /* IE hack */
+        if (jQuery.browser.msie && jQuery.browser.version < '9.0') jQuery('ul#menu li li:last-child').css('border-bottom', 'none');
+        //if (jQuery.browser.msie && jQuery.browser.version == '7.0') jQuery('ul#menu').css('width', jQuery('ul#menu').width()+'px');
+
+      }
+    });
+  </script>
 </body>
 </html>

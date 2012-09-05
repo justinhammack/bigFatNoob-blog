@@ -320,6 +320,107 @@ div.Popup h2 {
     border-right: 1px solid #24202c;
 }
 
+/* Menu
+ ------------------------------------------------------------------------*/
+
+#menu-wrap {
+    position:absolute;
+    height:30px;
+    right:0;
+    margin-top:-20px;
+    margin-bottom:-20px;
+    display:inline;
+    top:50%;
+    bottom:50%;
+    clear:both;
+    z-index:999;
+}
+ul#menu {
+    position:relative;
+    z-index:1;
+}
+ul#menu li {
+    position: relative;
+    display: inline;
+    float: left;
+    margin-left:10px;
+    padding-bottom:5px;
+}
+ul#menu li.current_page_item a { }
+ul#menu li a {
+    display:block;
+    height: 100%;
+    padding:0 10px;
+    text-align: left;
+    line-height: 40px;
+    font-size:12px;
+    color:#fff;
+    font-weight:normal;
+    text-transform:uppercase;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: transparent url(styles/default/opacity50.png) left top repeat scroll;
+}
+* html ul#menu li a { display: inline-block; }
+ul#menu li a:hover, ul#menu .hover {
+    color: #fff;
+    background-color: #0099cc; -webkit-transition: all .2s ease-out;
+    background-color: #0099cc; -moz-transition: all .2s ease-out;
+    background-color: #0099cc; transition: all .2s ease-out;
+}
+ul#menu ul {
+    visibility:hidden;
+    position:absolute;
+    left:0;
+    top:45px;
+    z-index:1;
+    width: 160px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: transparent url('images/opacity70.png') left top repeat scroll;
+}
+ul#menu li li {
+    display:block;
+    width: 100%;
+    margin:0;
+    cursor:pointer;
+    background:none;
+    padding:0;
+    border-bottom:1px solid #111;
+}
+ul#menu li li:last-child { border:none; }
+ul#menu li li a {
+    height:auto;
+    color:#aaa;
+    line-height:14px;
+    font-weight:normal;
+    background:none;
+    text-transform:none;
+    font-size:12px;
+    padding:10px 10px;
+    margin:0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+ul#menu li li a:hover {
+    color: #3C4CDD;
+    background:none;
+}
+ul#menu ul ul {
+    position:absolute;
+    left:100%;
+    top:-1px;
+    padding:0;
+    width: 100%;
+    visibility:hidden;
+    z-index:2;
+    border:1px solid #111;
+}
+
 /* Custom DDH Header */
 
 #header {
