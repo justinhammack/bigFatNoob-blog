@@ -15,7 +15,7 @@ function r_theme_scripts() {
 
 		/* jQuery */
 		wp_deregister_script('jquery');
-		wp_register_script('jquery', THEME_SCRIPTS_URI . ' /jquery-1.8.1.min.js', false, '1.8.1', true);
+		wp_register_script('jquery', THEME_SCRIPTS_URI . ' /jquery-1.7.1.min.js', false, '1.7.1', true);
 
 		/* jQuery Easing */
 		wp_enqueue_script('jquery-easing', THEME_SCRIPTS_URI . ' /jquery.easing-1.3.js', array('jquery'), '1.3');
